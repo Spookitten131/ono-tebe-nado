@@ -56,7 +56,7 @@ text-align: left;
     justify-self: end;
 }
 
-address{
+address {
     text-decoration: none;
     font-style: normal;
 }
@@ -104,17 +104,18 @@ text-align: left;
     width: 100%; 
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
+.aligned-text {
+ display: block;
 }
 
 .aligned-text_center {
-    align-self: center;
+    display: block;
+    text-align: center;
 }
 
 .aligned-text_right {
-    align-self: end;
+    display: block;
+    text-align: end;
 }
 
 .cover-description {
