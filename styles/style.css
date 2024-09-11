@@ -25,7 +25,7 @@
     width: 392px;
     justify-content: space-between;
     justify-self: start;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 21.13px;
@@ -35,7 +35,7 @@
   .main {
     width: auto;
     list-style-type: none;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 21.13px;
@@ -65,7 +65,7 @@
   
   .contacts {
     justify-self: end;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.3px;
@@ -80,7 +80,7 @@
   }
   
   .cover {
-    width: 1100px;
+    max-width: 1100px;
     min-height: 757px;
     background-image: url(../images/cover.jpg);
     background-position: center;
@@ -101,7 +101,7 @@
   }
   
   .no-letter-spacing {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 100px;
     font-weight: 700;
     line-height: 115px;
@@ -112,7 +112,7 @@
   }
   
   .letter-spacing-extended {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 100px;
     font-weight: 700;
     line-height: 115px;
@@ -151,7 +151,7 @@
   
   .cover-description {
     color: white;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 22px;
     font-weight: 400;
     word-spacing: 18px;
@@ -188,7 +188,7 @@
 
   .lots-heading {
     text-transform: uppercase;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: bold;
     font-size: 40px;
     margin-bottom:27px;
@@ -217,7 +217,7 @@
   }
 
   .card-title {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
@@ -230,22 +230,25 @@
   }
   
   .card-type-film {
-    background-image: url(/images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
     background-size: cover;
+    background-position: center;
   }
   
   .card-type-book {
-    background-image: url(/images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
     background-size: cover;
+    background-position: center;
   }
   
   .card-type-painting {
-    background-image: url(/images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
     background-size: cover;
+    background-position: center;
   }
   
   .card-text {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -258,7 +261,7 @@
   
   .lots-link {
     text-decoration: underline;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
@@ -278,7 +281,7 @@
   
   .about-title {
     text-transform: uppercase;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 46.96px;
@@ -290,7 +293,7 @@
   
   .about-text {
     margin-bottom: 22px;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 20px;
    font-weight: 400;
     line-height: 24px;
@@ -321,12 +324,13 @@
     margin-top: 160px;
     padding-left: 52px;
     padding-right: 52px;
+    margin-bottom: 88px;
   }
   
   .footer-menu-list {
     list-style-type: none;
     text-align: center;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 21.13px;
